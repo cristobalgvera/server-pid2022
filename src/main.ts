@@ -39,7 +39,7 @@ function enableSwagger(app: INestApplication) {
 
   const document = SwaggerModule.createDocument(app, config);
 
-  SwaggerModule.setup('api-docs', app, document);
+  SwaggerModule.setup('api-doc', app, document);
 }
 
 bootstrap();
